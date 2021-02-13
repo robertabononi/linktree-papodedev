@@ -3,10 +3,11 @@
 * {
     margin: 0;
     padding: 0;
+    border: 0;
 }
 
 body {
-    background: linear-gradient(101.07deg, #2E3C87 7.93%, #6A1094 93.3%);;
+    background: linear-gradient(101.07deg, #2E3C87 7.93%, #6A1094 93.3%);
     font-family: 'Nunito', sans-serif;
     max-width: 500px;
     margin: 0 auto;
@@ -15,10 +16,75 @@ body {
 .container {
     text-align: center;
     color: white;
+    height: 100vh;
 }
 
-.container img {
+.container .profile img {
     border-radius: 50%;
     height: 105px;
     margin: 20px;
+}
+
+.container .profile h1 {
+    font-size: 18px;
+}
+
+.container .profile .subtitle {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 5px;
+}
+
+.container .profile .subtitle span {
+    display: block;
+}
+
+.container .profile p {
+    margin: 5px;
+}
+
+.container .info-content {
+    position: relative;
+    background: white;
+    border-radius: 50px 50px 0 0;
+    height: 100vh;
+
+    margin-top: 40px;
+}
+
+.container .info-content .socials {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    position: absolute;
+
+    top: -35px;
+    left: calc(50% - 50px);
+    
+    padding: 10px;
+}
+
+.container .info-content .socials a img {
+    height: 40px;
+    background: white;
+    border-radius: 48%;
+    margin-left: 10px;
+}
+
+.container .info-content .content {
+    padding-top: 30px;
+}
+
+.container .info-content .content .link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    background: rgba(187, 63, 245, 0.411);
 }
