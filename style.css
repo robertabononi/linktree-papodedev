@@ -58,33 +58,47 @@ body {
     justify-content: space-around;
     align-items: center;
 
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(155, 155, 155, 0.2);
     border-radius: 50px;
     position: absolute;
 
     top: -35px;
-    left: calc(50% - 50px);
+    left: calc(50% - 80px);
     
     padding: 10px;
+    
 }
 
 .container .info-content .socials a img {
-    height: 40px;
+    height: 38px;
     background: white;
-    border-radius: 48%;
-    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.container .info-content .socials a+a img {
+    margin-left: 25px;
 }
 
 .container .info-content .content {
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .container .info-content .content .link {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
-    border-radius: 50px;
-    background: rgba(187, 63, 245, 0.411);
+    border-radius: 15px;
+    border: 1px solid #6a109444;
+    background: white;
+
+    font-weight: 700;
+
+    text-decoration: none;
+}
+
+.container .info-content .content .link:hover {
+    font-size: 20px;
+    background: #724a850e;
 }
