@@ -9,15 +9,14 @@
 body {
     background: linear-gradient(101.07deg, #632e87 7.93%, #901094 93.3%);
     font-family: 'Nunito', sans-serif;
-    max-width: 500px;
-    margin: 0 auto;
-    height: 100%;
+    width: 500px;
+    height: calc(100vh - 100px);
+    margin: auto;
 }
 
 .container {
     text-align: center;
     color: white;
-    height: 100vh;
 }
 
 .container .profile img {
@@ -49,7 +48,6 @@ body {
     position: relative;
     background: white;
     border-radius: 50px 50px 0 0;
-    height: 100vh;
 
     margin-top: 40px;
     padding: 50px 30px 20px;
