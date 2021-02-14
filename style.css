@@ -10,7 +10,7 @@ body {
     background: linear-gradient(101.07deg, #632e87 7.93%, #901094 93.3%);
     font-family: 'Nunito', sans-serif;
     width: 500px;
-    height: calc(100vh - 100px);
+    height: 100vh;
     margin: auto;
 }
 
@@ -88,6 +88,7 @@ body {
     border-radius: 15px;
     border: 1px solid #6a109444;
     background: white;
+    color: #6A1094;
 
     font-weight: 700;
 
